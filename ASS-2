@@ -1,0 +1,13 @@
+
+gvn_str = "hello btechgeeks"
+
+count_no = 0
+
+for itrtor in gvn_str:
+    
+    
+    if(itrtor.isalpha()):
+     
+        count_no = count_no+1
+
+print( "The Number of Characters in a given string {", gvn_str, "} = ", count_no)
