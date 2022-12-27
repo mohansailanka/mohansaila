@@ -1,0 +1,14 @@
+myList = []
+length = int(input("Enter number of elements: "))
+for i in range(0, length):
+    value = int(input())
+    myList.append(value)
+
+ele = int(input("Enter element to be searched in the list: "))
+
+
+
+if(ele in myList):
+    print("Element found")
+else :
+    print("Element not found!")
