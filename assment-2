@@ -1,0 +1,9 @@
+arr = [int(val) for val in input().split(' ')]
+
+filtered_elements = []
+
+for ele in arr:
+    if arr.count(ele) != 3:
+        filtered_elements.append(ele)
+        
+print(filtered_elements)
